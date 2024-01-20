@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/code.avif";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with phone and laptop";
 
 /**
  * Project list
@@ -31,22 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Cart n Carry",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A full stack Ecommerce with lots of functionality, built as a practice for my react and node skills",
+    url: "bit.ly/Cartncarry",
   },
   {
-    title: "Web Development for Beginners",
+    title: "A Comprehensive Guide to Foundational Concepts in Software Development",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "An article on the foundational concepts every aspiring software engineer needs to know.",
+    url: "https://www.medium.com/@abdulkabirsultan/a-comprehensive-guide-to-foundational-concepts-in-software-development-c6e1ba48e731",
   },
   {
-    title: "My Resume Site",
+    title: "Object Oriented Programmin (OOP)",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "An article on basic OOP concepts.",
+    url: "https://www.medium.com/@abdulkabirsultan/object-oriented-programming-oop-ab9c2a893532",
   },
   {
     title: "GitHub Codespaces and github.dev",
